@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+
+ <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() { 
+$("a.first").fancybox(); 
+$("a.two").fancybox(); 
+$("a.video").fancybox({"frameWidth":520,"frameHeight":400}); 
+$("a.content").fancybox({"frameWidth":600,"frameHeight":300}); 
+});
+</script>
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>ковка</title>
+  <base target="_blank">
+<script>
+(function($){
+    $.fn.liScrollToTop = function(params){
+        return this.each(function(){
+            var scrollUp = $(this);
+            scrollUp.hide();
+            if ($(window).scrollTop() > 0) scrollUp.fadeIn("slow")
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 0) scrollUp.fadeOut("slow")
+                else scrollUp.fadeIn("slow")
+            });
+            scrollUp.click(function() {
+                $("html, body").animate({scrollTop: 0}, "slow")
+            })
+        });
+    };
+})(jQuery);
+
+/*Инициализация плагина*/
+$(function(){
+    $('.scrollUp').liScrollToTop();
+});
+</script>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.localscroll.js"></script>
+<script type="text/javascript" src="jquery.scrollto.js"></script>
+<script type="text/javascript">
+$(function($) {
+ $.localScroll({
+  duration: 1000,
+  hash: false });
+ });
+</script>
+
+ </head>
+ <body>
+ <div id="scrollUp"></div>
+ <div id="0"></div>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="menu">
+				<a href="#0" onclick="return anchorScroller(this)">ГЛАВНАЯ</a>
+				<a href="#1" onclick="return anchorScroller(this)">УСЛУГИ</a>
+				<a href="#2" onclick="return anchorScroller(this)">РАБОТЫ</a>
+				<a href="#3" onclick="return anchorScroller(this)">О НАС</a>
+				<a href="#4" onclick="return anchorScroller(this)">КОНТАКТЫ</a>
+			</div>
+		</div>
+	</div>
+<div class="fon">
+	<div class="HK"> Художественная ковка </div>
+	<div class="oformlenie">
+			<div class="polosa"></div>
+		<div class="Iz">изготовление кованых изделий любой сложности</div>
+			<div class="polosa2"></div>
+	</div>
+	<div class="social">
+		<a href="https://vk.com/id14451094"><i class="fa fa-vk"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100013209398705&fref=hovercard"><i class="fa fa-facebook"></i></a>
+	</div>	
+</div>
+	<div class="wrapper2">
+		<div class="blockService">
+		<div id="1"></div>
+			<div class="Uslugi">УСЛУГИ</div>
+				<div class="service">
+					<div class="block1"><div class="iconka"><img src="pic/Ser-02.png"><br></div>
+					<h4>ЗВОНОК</h4><br> Вы звоните нам или заполняете форму на нашем сайте
+					</div>
+					<div class="block1"><div class="iconka"><img src="pic/ser-03.png"><br></div>
+					<h4>ВЫЕЗД ДЛЯ ЗАМЕРА</h4><br> Наш специалист сделает замеры БЕСПЛАТНО
+					</div>
+					<div class="block1"><div class="iconka"><img src="pic/ser-05.png"><br></div>
+					<h4>УСЛУГИ И СТОИМОСТЬ</h4><br> Уточнив всю необходимую информацию, и предварительно сняв размеры будет выведена стоимость изготовления. Приступаем к работе после аванса.
+					</div>
+					<div class="block1"><div class="iconka"><img src="pic/ser-04.png"><br></div>
+					<h4>ДОСТАВКА И МОНТАЖ</h4><br> Доставляем готовое изделие и устанавливаем.
+					</div>
+				</div>
+					<div class="buttonback"> СВЯЗАТЬСЯ С НАМИ</div>
+		</div>
+	</div>
+<div id="2"></div>
+<div class="wrapper3">
+	<div class="work">
+			<div class="ourwork">НАШИ РАБОТЫ</div>
+				<div class="work100">
+<div align="center">
+<a class="two" rel="group" title="Журнальный столик" href="pic/32a.jpg"><img src="pic/32m.jpg" height="310"></a>
+<a class="two" rel="group" title="Козырек" href="pic/606a.jpg"><img src="pic/606m.jpg" height="310"></a>
+<a class="two" rel="group" title="Пуфик" href="pic/208a.jpg"><img src="pic/208m.jpg" height="310"></a>
+<a class="two" rel="group" title="Почта с кованным элементом" href="pic/008a.jpg"><img src="pic/008m.jpg" height="310"></a>
+<a class="two" rel="group" title="Именной мангал" href="pic/29a.jpg"><img src="pic/29m.jpg" height="310"></a>
+<a class="two" rel="group" title="Дверь с кованными элементами" href="pic/019a.jpg"><img src="pic/019m.jpg" height="310"></a>
+<a class="two" rel="group" title="Кованная роза" href="pic/52a.jpg"><img src="pic/52m.jpg" height="310"></a>
+<a class="two" rel="group" title="Мангал" href="pic/19a.jpg"><img src="pic/19m.jpg" height="310"/></a>
+<a class="two" rel="group" title="Подкова с розой" href="pic/da8a.jpg"><img src="pic/da8m.jpg" height="310"></a>
+<a class="two" rel="group" title="Роза" href="pic/Z12Qa.jpg"><img src="pic/Z12Qm.jpg" height="310" /></a>
+<a class="two" rel="group" title="Скамейка" href="pic/wAa.jpg"><img src="pic/wAm.jpg" height="310"></a>
+<a class="two" rel="group" title="Мангал" href="pic/SEa.jpg"><img src="pic/SEm.jpg" height="310"></a>
+<a class="two" rel="group" title="Забор" href="pic/Фото030a.jpg"><img src="pic/Фото030m.jpg" height="310"></a>
+
+
+</div>
+	</div>
+		</div>
+</div>
+<div id="3"></div>
+<div class="blockus">
+	<div class="blockwho">
+		<div class="blockw">
+			<div class="aboutus"> О НАС</div>
+				<div class="text">
+<p>Методами художественной ковки могут изготавливаться: барельефы, ворота, перила, ограды, мебель, декоративные украшения дверей, люстр, решёток и другие изделия<br>Наши мастерам могут создать практически любой образ. </p></div>
+		</div>
+	<div class="benefit"><img src="pic/work.png">
+	  
+	</div>
+</div>
+<div class="picus"></div>
+<div id="4"></div>
+<div class="conect">
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d1241.2819848182644!2d31.351406722198515!3d51.52121504017997!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d51.520934499999996!2d31.3520561!5e0!3m2!1sru!2sua!4v1480839031435" width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="footer">
+	<div class="footercenter">
+		<div class="logo2"></div>
+		<div class="timework"><h4>МЫ РАБОТАЕМ</h4><br>
+			<div class="point">
+		•<br>
+		•<br>
+		•<br>
+		•<br>
+		•<br><br>
+		
+		•<br>
+		•<br>
+			</div>
+				<div class="time">9<sup><small>00</small></sup>-19<sup><small>00</small></sup></div>
+				<div class="rest">выходной</div>
+		</div>
+		<div class="info">
+			Телефоны:<br>
+			+38 (093) 114-15-45;<br>
+			+38 (067) 930-04-06;<br>
+			E-mail: sergeikhell@gmail.com<br>
+			Адрес: г.Чернигов, ул. Кривоноса 41A<br>
+		</div>
+		<div class="line"><hr></div>
+		<div class="prava">© 2016 Кузня. Художественная Ковка. Все права защищены.</div>
+		<div class="scrollUp"><a href="#scrollUp"><i class="fa fa-angle-up"></i></a>
+
+</div>
+	</div>
+
+</div>
+
+</body>
+</html>
+		
